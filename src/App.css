@@ -1,0 +1,62 @@
+.App{
+    background-color: #205375;
+    padding: 30px 30px 100px 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 5px lightblue;
+    border: lightblue 2px solid;
+}
+body{
+    background-color: #112B3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	height: 90vh;
+	background: linear-gradient(-45deg, #00FFC6,#30AADD,#43919B,#247881);
+	background-size: 400% 400%;
+	animation: Gradient 10s ease infinite;
+    font-family: 'Anek Odia', sans-serif;
+font-family: 'Bebas Neue', cursive;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+input{
+    background-color: #CDBE78;
+    padding: 10px;
+    border-radius: 10px;
+    border: lightblue 3px solid;
+    margin-top: 10px;
+}
+input:hover{
+    box-shadow:0px 0px 5px  lightblue;
+}
+header{
+    color: #EFEFEF;
+    background-color: #205375;
+    border-radius: 10px;
+    border: #CDBE78 1px solid;
+    margin-bottom: 15px;
+    
+}
+label{
+    color: #EFEFEF;
+    font-size: larger ;
+
+}
+h4{
+    color: #EFEFEF;
+    font-weight: bold;
+    font-size: 30px;
+}
